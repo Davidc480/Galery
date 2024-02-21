@@ -32,7 +32,7 @@ const Slider = ()=>{
               <div key={index} className={styles.item} style={{ backgroundImage: `url(${item.imageUrl})` }}>
                 <div className={styles.content}>
                   <div className={styles.name}>{item.name}</div>
-                  <div className={styles.des}>{item.description}</div>
+                   <div className={styles.des}>{item.description}</div>
                   <button>See More</button>
                 </div>
               </div>
